@@ -5,9 +5,9 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='ipygis',
-    version='0.2.0',
-    author='Joona Laine',
-    author_email='joona@gispo.fi',
+    version='0.2.1',
+    author='Riku Oja',
+    author_email='riku@gispo.fi',
     description='GIS utils and GIS visualization/analysis functions for Jupyter Notebook',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -19,7 +19,7 @@ setuptools.setup(
         'geopandas>=0.8.1',
         'h3>=3.7.3',
         'ipython-sql>=0.4.0',
-        'keplergl>=0.2.1,<0.3.1',
+        'keplergl=0.3.2',
         'libpysal>=4.5.1'
     ],
     classifiers=[
