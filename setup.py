@@ -19,7 +19,7 @@ setuptools.setup(
         'geopandas>=0.8.1',
         'h3>=3.7.3',
         'ipython-sql>=0.4.0',
-        'keplergl=0.3.2',
+        'keplergl==0.3.2',
         'libpysal>=4.5.1'
     ],
     classifiers=[
